@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+#FBBF2A,F97329,F5495E
+html{
+  scroll-behavior: smooth;
+}
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: #17182f;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+h3 {
+  font-weight: 600;
+}
+p {
+  font-weight: 300;
+}
+.navbar-dark .navbar-brand {
+  color: lightsteelblue;
+  font-size: 30px;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .show > .nav-link {
+  color: lightsteelblue;
+}
+.navbar-dark .navbar-toggler{
+    outline: 0;
+    border: 0;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+.navbar-dark .navbar-nav .nav-item .btn{
+    color: mediumaquamarine;
+    border: 1px solid mediumaquamarine;
+}
+.navbar-dark .navbar-nav .nav-item a:hover{
+    color: mediumaquamarine;
+}
+/* showcase */
+
+.showcase {
+  height: calc(100vh - 100px);
+  margin-top: 15em;
+  margin-left: 10em;
+}
+.showcase-content h1 {
+  color: lightsteelblue;
+  letter-spacing: 2px;
+  margin: 15px 0;
+  font-size: 60px;
+  font-weight: bold;
+}
+.showcase-content h4 {
+  color: mediumaquamarine;
+}
+.showcase-content h3 {
+  color: lightslategray;
+  font-size: 50px;
+}
+#social-handles{
+    margin: 10px 0;
+    padding-top: 15px;
+}
+#icons{
+    list-style: none;
+    display: flex;
+    font-size: 50px;
+    padding-left: 0px;
+}
+.fab,.far{
+    text-decoration: none;
+    color: lightsteelblue;
+    padding-right: 40px;
+}
+.fab:hover{
+    color: black;
+}
+.far:hover{
+    color: black;
+}
+.showcase-content .btn {
+    color: mediumaquamarine;
+    border: 2px solid mediumaquamarine;
+    padding: 10px 60px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    transition: 0.5s all;
+    margin-top: 30px;
+}
+.showcase-content .btn:hover {
+    background-color: lightslategrey;
+  
+    border: 0;
+}
+
+/* about */
+.about{
+  font-size: 50px;
+  /* height: calc(100vh - 100px); */
+}
+.about-heading{
+  color: mediumaquamarine;
+}
+.profile-pic{
+  height: 300px;
+  width: 300px;
+  border-radius: 10%;
+  margin-top  : 80px;
+}
+.info{
+  color: lightsteelblue;
+  margin-top: 40px;
+}
+.logo{
+  height: 20px;
+  width: 20px;
+  margin-right: 8px;
+}
+
+
+/* Experience */
+.experience{
+  margin-top: 25rem;
+}
+.stack{
+  display: flex;
+}
+.m-top{
+  margin-top: 70px;
+}
+
+.position{
+  color: #396FF8;
+}
+.company{
+  color:mediumaquamarine;
+}
+.duration{
+  color: lightsteelblue;
+}
+.workdone{
+  color: lightsteelblue;
+  margin-left: 3em;
+}
+.company:hover{
+  color:blue;
+}
+.content{
+  margin-left: 50px;
+}
+
+
+/* projects */
+
+.card{
+  background-color: #1c375c;
+}
+.kwd{
+  /* display: flex; */
+  /* align-items: flex-end; */
+  /* -webkit-box-flex: 1; */
+  /* flex-grow: 1;  */
+  flex-wrap: wrap;
+  padding: 0px;
+  margin: 20px 0px 0px;
+  list-style: none;
+}
+.k{
+  margin-right: 15px;
+  flex-wrap: wrap;
+}
+.projectrow {
+  margin-left: 100px;
+  margin-top: 100px;
+}
+.fas:hover{
+  color: black;
+}
+.projects a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* contact */
+
+.contact .btn {
+  color: mediumaquamarine;
+  border: 2px solid mediumaquamarine;
+  padding: 10px 60px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  transition: 0.5s all;
+  margin-top: 30px;
+  width: 15em;
+  margin-left: 540px;
+}
+.contact .btn:hover {
+  background-color: lightslategrey;
+  border: 0;
+}
+.contact h4{
+  color: lightsteelblue;
+}
+.gt-top{
+  margin-top: 15em;
+}
+.contact h5{
+  color: mediumaquamarine;
+}
+
+
+
+@media (max-width:280px){
+    #icons{
+        font-size: 30px;
+    }
+    .fab,.far{
+        padding-right: 10px;
+    }
+
+}
+@media (max-width:400px){
+    #icons{
+        font-size: 30px;
+    }
+    .fab,.far{
+        padding-right: 15px;
+    }
+}
+@media(max-width:535px){
+    #icons{
+        font-size: 40px;
+    }
+    .fab,.far{
+        padding-right: 10px;
+    }
+}
+@media (max-width: 570px) {
+  .showcase {
+    margin-top: 10em;
+    margin-left: 10px;
+  }
+
+  .showcase-content h1 {
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .showcase-content h3 {
+    font-size: 30px;
+  }
+  .showcase-content h4 {
+    font-size: 15px;
+  }
+  .showcase-content .btn{
+      margin-top: 40px;
+  }
+  .experience{
+    margin-top: 5rem;
+  }
+  .experience li{
+    margin-left: 10px;
+  }
+  .workdone{
+    margin-left: 10px;
+  }
+  .m-top{
+    margin-top: 10px;
+  }
+  .projectrow{
+    margin-left: auto;
+  }
+  .content{
+    margin-left: 0;
+  }
+  .contact .btn{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* .contact h5{
+    font-size: 15px;
+  } */
+}
